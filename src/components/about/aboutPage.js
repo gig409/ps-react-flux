@@ -1,16 +1,8 @@
 'use strict';
 
 var React = require('react');
-var Lifecycle = require('react-router').Lifecycle;
 
 var About = React.createClass({
-  mixins: [Lifecycle],
-  routerWillLeave(nextLocation) {
-    console.log(nextLocation);
-    /* if (nextLocation.pathname === '/authors') {
-      return false;
-    } */
-  },
   render: function() {
     return (
       <div>
