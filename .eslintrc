@@ -92,7 +92,10 @@
     "webrtcDetectedBrowser": true,
     "webrtcDetectedVersion": true,
     "jquery": true,
-    "$": true
+    "$": true,
+    "React": true,
+    "routerHelper": true
+
   },
   "plugins": [
     "react"
